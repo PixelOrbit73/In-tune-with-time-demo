@@ -1,0 +1,322 @@
+{
+  "paperTitle": "Sparse in Time, Rich in Guidance: Higher-Order Temporal Modeling for Balanced Training-Free Music Editing",
+  "selectionMode": "fixed",
+  "experiments": [
+    {
+      "id": "instrument",
+      "label": "Instrument Editing",
+      "eyebrow": "Timbre transformation",
+      "description": "Editing the dominant instrument while preserving the musical structure and identity of the source.",
+      "classes": [
+        "guitar",
+        "drums",
+        "piano",
+        "synthesizer"
+      ],
+      "samples": [
+        {
+          "id": "instrument:guitar_to_piano__036__fICkFRUW-0M",
+          "task": "instrument",
+          "sourceClass": "guitar",
+          "targetClass": "piano",
+          "transition": "guitar_to_piano",
+          "sourcePrompt": "guitar music",
+          "targetPrompt": "piano music",
+          "sourceFullDescription": "In this ambient worship song, acoustic guitar takes center stage, accompanied by pad layers and textures, along with guitar reverb and delay. The guitarist plays with emotional expression, contributing to the contemplative and worshipful atmosphere. The combination of acoustic tones, atmospheric textures, and emotionally charged guitar playing creates a spiritually uplifting and immersive experience, making it well-suited for worship settings. a man is playing an acoustic guitar",
+          "sourceAudio": "assets/audio/instrument/guitar_to_piano__036__fICkFRUW-0M--source.wav",
+          "editedAudio": "assets/audio/instrument/guitar_to_piano__036__fICkFRUW-0M--edited.wav"
+        },
+        {
+          "id": "instrument:guitar_to_drums__009__0IxYbx4nRCw",
+          "task": "instrument",
+          "sourceClass": "guitar",
+          "targetClass": "drums",
+          "transition": "guitar_to_drums",
+          "sourcePrompt": "guitar music",
+          "targetPrompt": "drums music",
+          "sourceFullDescription": "The song falls within the punk rock genre, carrying a complex blend of emotions, including a sense of nostalgia and bitterness. It features a straightforward musical arrangement with a melodic yet raw guitar riff leading the way, accompanied by a driving drumbeat and simple bassline. The central theme revolves around reflection on past experiences and missed opportunities. The video appears to capture a live performance setting, marked by background chattering noise, enhancing the authenticity of the experience. a crowd of people at a concert with their hands up",
+          "sourceAudio": "assets/audio/instrument/guitar_to_drums__009__0IxYbx4nRCw--source.wav",
+          "editedAudio": "assets/audio/instrument/guitar_to_drums__009__0IxYbx4nRCw--edited.wav"
+        },
+        {
+          "id": "instrument:guitar_to_synthesizer__010__SvVbg5aSgrs",
+          "task": "instrument",
+          "sourceClass": "guitar",
+          "targetClass": "synthesizer",
+          "transition": "guitar_to_synthesizer",
+          "sourcePrompt": "guitar music",
+          "targetPrompt": "synthesizer music",
+          "sourceFullDescription": "In this acoustic cover of a punk song, the dramatic singing of male vocals takes center stage, bringing a new emotive quality to the track. The fat guitar strumming provides a robust acoustic backdrop, offering a distinct interpretation of the original punk sound. The rough singing style adds a touch of grit and authenticity, giving the acoustic cover its own unique character. This combination results in a compelling rendition that combines the intensity of punk with the intimacy of acoustic performance. tramy and a drink mouse",
+          "sourceAudio": "assets/audio/instrument/guitar_to_synthesizer__010__SvVbg5aSgrs--source.wav",
+          "editedAudio": "assets/audio/instrument/guitar_to_synthesizer__010__SvVbg5aSgrs--edited.wav"
+        },
+        {
+          "id": "instrument:drums_to_guitar__008__BEL9MKY0Jzg",
+          "task": "instrument",
+          "sourceClass": "drums",
+          "targetClass": "guitar",
+          "transition": "drums_to_guitar",
+          "sourcePrompt": "drums music",
+          "targetPrompt": "guitar music",
+          "sourceFullDescription": "In this Rap Conciencia song, a steady hip-hop drum beat sets the foundation for the track, supporting powerful male melodic rapping with a touch of harshness. The simple bassline enhances the low end, contributing to a melancholic mood. The slow and steady beat creates a deliberate pace, allowing the lyrics and the mood of the song to unfold with intensity. This combination results in a powerful and emotive Trap Brasileiro experience. a man sitting in the back seat of a car with his hand on his mouth",
+          "sourceAudio": "assets/audio/instrument/drums_to_guitar__008__BEL9MKY0Jzg--source.wav",
+          "editedAudio": "assets/audio/instrument/drums_to_guitar__008__BEL9MKY0Jzg--edited.wav"
+        },
+        {
+          "id": "instrument:drums_to_piano__037__A5BKmadnZHo",
+          "task": "instrument",
+          "sourceClass": "drums",
+          "targetClass": "piano",
+          "transition": "drums_to_piano",
+          "sourcePrompt": "drums music",
+          "targetPrompt": "piano music",
+          "sourceFullDescription": "This lively Ranchera song showcases skillful accordion melodies and powerful male vocals harmonizing seamlessly. The music is driven by a simple yet energetic chord progression, accompanied by a steady drum beat in a lively 3/4 time signature. Together, these elements create a vibrant and engaging composition within the dynamic world of Grupera music. a band playing music on stage at a festival",
+          "sourceAudio": "assets/audio/instrument/drums_to_piano__037__A5BKmadnZHo--source.wav",
+          "editedAudio": "assets/audio/instrument/drums_to_piano__037__A5BKmadnZHo--edited.wav"
+        },
+        {
+          "id": "instrument:drums_to_synthesizer__010__T8RnpyjepTA",
+          "task": "instrument",
+          "sourceClass": "drums",
+          "targetClass": "synthesizer",
+          "transition": "drums_to_synthesizer",
+          "sourcePrompt": "drums music",
+          "targetPrompt": "synthesizer music",
+          "sourceFullDescription": "This is an electro swing variation characterized by lively keys that contribute to its whimsical and light-hearted vibe. The inclusion of trap drums and a rhythmic bass adds a modern and energetic touch to the overall composition. Despite being in a minor key, the track maintains a playful and upbeat atmosphere, creating a dynamic contrast that adds to its charm. The fusion of these elements results in a contemporary and spirited electro swing piece, perfect for evoking a sense of fun and movement. smooth sounds - free sound effects",
+          "sourceAudio": "assets/audio/instrument/drums_to_synthesizer__010__T8RnpyjepTA--source.wav",
+          "editedAudio": "assets/audio/instrument/drums_to_synthesizer__010__T8RnpyjepTA--edited.wav"
+        },
+        {
+          "id": "instrument:piano_to_drums__031__5_orEetudIA",
+          "task": "instrument",
+          "sourceClass": "piano",
+          "targetClass": "drums",
+          "transition": "piano_to_drums",
+          "sourcePrompt": "piano music",
+          "targetPrompt": "drums music",
+          "sourceFullDescription": "This song has a low quality, manic piano melody with punchy kick and snare, uptempo hi hats, shimmering open hats, and a thin but aggressive sound. gold - silver - kato - trainer battle",
+          "sourceAudio": "assets/audio/instrument/piano_to_drums__031__5_orEetudIA--source.wav",
+          "editedAudio": "assets/audio/instrument/piano_to_drums__031__5_orEetudIA--edited.wav"
+        },
+        {
+          "id": "instrument:piano_to_guitar__015__mkBqLWyFlcc",
+          "task": "instrument",
+          "sourceClass": "piano",
+          "targetClass": "guitar",
+          "transition": "piano_to_guitar",
+          "sourcePrompt": "piano music",
+          "targetPrompt": "guitar music",
+          "sourceFullDescription": "In this classic OPM cover, a male vocalist sings with a dramatic flair, accompanied by a piano that establishes a somber tone. The arrangement is enriched by subtle string layers, enhancing the overall emotive and dramatic atmosphere of the performance. The combination of the singer's expressive delivery and the poignant piano and string elements creates a captivating rendition of the classic piece. a man in a recording studio with headphones on",
+          "sourceAudio": "assets/audio/instrument/piano_to_guitar__015__mkBqLWyFlcc--source.wav",
+          "editedAudio": "assets/audio/instrument/piano_to_guitar__015__mkBqLWyFlcc--edited.wav"
+        },
+        {
+          "id": "instrument:piano_to_synthesizer__015__mkBqLWyFlcc",
+          "task": "instrument",
+          "sourceClass": "piano",
+          "targetClass": "synthesizer",
+          "transition": "piano_to_synthesizer",
+          "sourcePrompt": "piano music",
+          "targetPrompt": "synthesizer music",
+          "sourceFullDescription": "In this classic OPM cover, a male vocalist sings with a dramatic flair, accompanied by a piano that establishes a somber tone. The arrangement is enriched by subtle string layers, enhancing the overall emotive and dramatic atmosphere of the performance. The combination of the singer's expressive delivery and the poignant piano and string elements creates a captivating rendition of the classic piece. a man in a recording studio with headphones on",
+          "sourceAudio": "assets/audio/instrument/piano_to_synthesizer__015__mkBqLWyFlcc--source.wav",
+          "editedAudio": "assets/audio/instrument/piano_to_synthesizer__015__mkBqLWyFlcc--edited.wav"
+        },
+        {
+          "id": "instrument:synthesizer_to_drums__011__jzD_yyEcp0M",
+          "task": "instrument",
+          "sourceClass": "synthesizer",
+          "targetClass": "drums",
+          "transition": "synthesizer_to_drums",
+          "sourcePrompt": "synthesizer music",
+          "targetPrompt": "drums music",
+          "sourceFullDescription": "The song belongs to the pop genre, evoking a light-hearted and relatable emotion, with a blend of frustration. It features electronic beats and synthesizers in a catchy composition. The central theme revolves around the complexities of friendship and navigating the \"friendzone.\" The video is set in an urban environment, with background noises from a bustling café, but the track appears to be recorded in a studio rather than a live performance. The vocals are delivered with a conversational and slightly sassy tone, complementing the theme of the song. a woman with gray hair sitting on a couch",
+          "sourceAudio": "assets/audio/instrument/synthesizer_to_drums__011__jzD_yyEcp0M--source.wav",
+          "editedAudio": "assets/audio/instrument/synthesizer_to_drums__011__jzD_yyEcp0M--edited.wav"
+        },
+        {
+          "id": "instrument:synthesizer_to_guitar__017__S9-i_pqoUCw",
+          "task": "instrument",
+          "sourceClass": "synthesizer",
+          "targetClass": "guitar",
+          "transition": "synthesizer_to_guitar",
+          "sourcePrompt": "synthesizer music",
+          "targetPrompt": "guitar music",
+          "sourceFullDescription": "The song features aggressive male vocals, mellow sustained female vocals, synth pad chords, noisy, mono, reverberant percussions, and creates a suspenseful and intense atmosphere with a low audio quality. a video game scene with two people in a room",
+          "sourceAudio": "assets/audio/instrument/synthesizer_to_guitar__017__S9-i_pqoUCw--source.wav",
+          "editedAudio": "assets/audio/instrument/synthesizer_to_guitar__017__S9-i_pqoUCw--edited.wav"
+        },
+        {
+          "id": "instrument:synthesizer_to_piano__012___Twap6CDva0",
+          "task": "instrument",
+          "sourceClass": "synthesizer",
+          "targetClass": "piano",
+          "transition": "synthesizer_to_piano",
+          "sourcePrompt": "synthesizer music",
+          "targetPrompt": "piano music",
+          "sourceFullDescription": "In this atmospheric fantasy music piece, a choral pad with a drone note and percussion effects sets an enchanting vibe with a mysterious tone. Synth mallet melodies and additional synth pad layers contribute to the overall atmospheric quality, creating a magical and immersive auditory experience that evokes a sense of wonder and mystery. a dark room with a lot of books and other items",
+          "sourceAudio": "assets/audio/instrument/synthesizer_to_piano__012___Twap6CDva0--source.wav",
+          "editedAudio": "assets/audio/instrument/synthesizer_to_piano__012___Twap6CDva0--edited.wav"
+        }
+      ]
+    },
+    {
+      "id": "genre",
+      "label": "Genre Editing",
+      "eyebrow": "Style transformation",
+      "description": "Transferring genre characteristics while retaining the core content and temporal organization of the source.",
+      "classes": [
+        "classical",
+        "electronic",
+        "jazz",
+        "rock"
+      ],
+      "samples": [
+        {
+          "id": "genre:classical_to_electronic__002__Rf7vygfb7w4",
+          "task": "genre",
+          "sourceClass": "classical",
+          "targetClass": "electronic",
+          "transition": "classical_to_electronic",
+          "sourcePrompt": "classical music",
+          "targetPrompt": "electronic music",
+          "sourceFullDescription": "A low quality, mono, and noisy melody with the impactful inclusion of church bells. a large machine with wheels inside of it",
+          "sourceAudio": "assets/audio/genre/classical_to_electronic__002__Rf7vygfb7w4--source.wav",
+          "editedAudio": "assets/audio/genre/classical_to_electronic__002__Rf7vygfb7w4--edited.wav"
+        },
+        {
+          "id": "genre:classical_to_jazz__001__Z6q5doznOcI",
+          "task": "genre",
+          "sourceClass": "classical",
+          "targetClass": "jazz",
+          "transition": "classical_to_jazz",
+          "sourcePrompt": "classical music",
+          "targetPrompt": "jazz music",
+          "sourceFullDescription": "This orchestral piece evokes warm and emotional feelings through its slow tempo and the use of French horns, creating a relaxing listening experience. [아름다운드] - 프로듀스 프로듀스 프로",
+          "sourceAudio": "assets/audio/genre/classical_to_jazz__001__Z6q5doznOcI--source.wav",
+          "editedAudio": "assets/audio/genre/classical_to_jazz__001__Z6q5doznOcI--edited.wav"
+        },
+        {
+          "id": "genre:classical_to_rock__010__4Yc71_dU3m4",
+          "task": "genre",
+          "sourceClass": "classical",
+          "targetClass": "rock",
+          "transition": "classical_to_rock",
+          "sourcePrompt": "classical music",
+          "targetPrompt": "rock music",
+          "sourceFullDescription": "This lively instrumental concert piece in the Hindustani tradition of Indian classical music features the rich harmony of the veena and melodic flute, accompanied by the rhythmic tabla and tanpura, all in the context of the North Indian sandhya raag and incorporating the traditional taal, sruti, and Indian wind instruments and string instruments. an indian man playing the sitar",
+          "sourceAudio": "assets/audio/genre/classical_to_rock__010__4Yc71_dU3m4--source.wav",
+          "editedAudio": "assets/audio/genre/classical_to_rock__010__4Yc71_dU3m4--edited.wav"
+        },
+        {
+          "id": "genre:electronic_to_classical__010__u7K72X4eo_s",
+          "task": "genre",
+          "sourceClass": "electronic",
+          "targetClass": "classical",
+          "transition": "electronic_to_classical",
+          "sourcePrompt": "electronic music",
+          "targetPrompt": "classical music",
+          "sourceFullDescription": "The music track is characterized by its distinctive genre, exuding a haunting and melancholic atmosphere that captivates listeners with its moody instrumental arrangement. It features a sequence of electronic beats, synthesized sounds, and a particular instrument creating a layered composition. The central theme of the track revolves around emotional vulnerability and introspection, as it takes the listener on a journey through its ethereal soundscape. The video is shot in an urban setting, adding an element of bustling life with chattering noise in the background, creating a striking contrast to the song's introspective mood. The track is not recorded in a live performance, and the vocals are delivered in a soft, emotive tone, contributing to the overall haunting quality of the composition. a close up of a baby's face with a candle in the background",
+          "sourceAudio": "assets/audio/genre/electronic_to_classical__010__u7K72X4eo_s--source.wav",
+          "editedAudio": "assets/audio/genre/electronic_to_classical__010__u7K72X4eo_s--edited.wav"
+        },
+        {
+          "id": "genre:electronic_to_jazz__005__BOOomP7E0zs",
+          "task": "genre",
+          "sourceClass": "electronic",
+          "targetClass": "jazz",
+          "transition": "electronic_to_jazz",
+          "sourcePrompt": "electronic music",
+          "targetPrompt": "jazz music",
+          "sourceFullDescription": "The track begins with rhythmic percussion and ambient synths, accompanied by a reese bass. The drums have a punchy and rhythmic quality reminiscent of drum and bass. Additionally, there are soft, ethereal female vocal elements interspersed throughout the track, adding an ambient touch. a man sitting on the beach at sunset",
+          "sourceAudio": "assets/audio/genre/electronic_to_jazz__005__BOOomP7E0zs--source.wav",
+          "editedAudio": "assets/audio/genre/electronic_to_jazz__005__BOOomP7E0zs--edited.wav"
+        },
+        {
+          "id": "genre:electronic_to_rock__028__hYBGRDbn-Pw",
+          "task": "genre",
+          "sourceClass": "electronic",
+          "targetClass": "rock",
+          "transition": "electronic_to_rock",
+          "sourcePrompt": "electronic music",
+          "targetPrompt": "rock music",
+          "sourceFullDescription": "The car accelerates to the energetic beat of the slap house track. It begins with a tension-building impact and a powerful reese synth bass, gradually introducing fading snares to intensify the anticipation for the drop. Over these layers, a counter synth melody and a cymbal open hihat plays adds to the high-intensity atmosphere. The overall experience is filled with energy and anticipation. a car driving down a road at night",
+          "sourceAudio": "assets/audio/genre/electronic_to_rock__028__hYBGRDbn-Pw--source.wav",
+          "editedAudio": "assets/audio/genre/electronic_to_rock__028__hYBGRDbn-Pw--edited.wav"
+        },
+        {
+          "id": "genre:jazz_to_classical__010__L3WXPd6_IuA",
+          "task": "genre",
+          "sourceClass": "jazz",
+          "targetClass": "classical",
+          "transition": "jazz_to_classical",
+          "sourcePrompt": "jazz music",
+          "targetPrompt": "classical music",
+          "sourceFullDescription": "The music track in question belongs to the jazz genre, specifically within the subgenres of post-bop and modal jazz. \"Dolphin Dance\" exudes a contemplative and serene mood, often described as tranquil and reflective, invoking a sense of calmness and introspection. Typically performed by a small jazz ensemble, including instruments like the piano, saxophone, double bass, and drums, the composition combines these elements to create a melodic and rhythmic texture. The central theme of \"Dolphin Dance\" is centered around the imagery of the ocean, nature, and fluidity, with the music evoking the graceful movements of dolphins in the water, capturing a sense of fluidity and natural beauty. While there may be various video recordings of the composition, it is often recorded in studio settings with minimal background noise. \"Dolphin Dance\" is commonly performed live in settings like jazz clubs and concerts, maintaining its contemplative and introspective tone without the inclusion of spoken conversation or narration. a man playing a piano in front of a microphone",
+          "sourceAudio": "assets/audio/genre/jazz_to_classical__010__L3WXPd6_IuA--source.wav",
+          "editedAudio": "assets/audio/genre/jazz_to_classical__010__L3WXPd6_IuA--edited.wav"
+        },
+        {
+          "id": "genre:jazz_to_electronic__004__XiF9fSeu4Q0",
+          "task": "genre",
+          "sourceClass": "jazz",
+          "targetClass": "electronic",
+          "transition": "jazz_to_electronic",
+          "sourcePrompt": "jazz music",
+          "targetPrompt": "electronic music",
+          "sourceFullDescription": "The music track blends elements of jazz and funk, resulting in an uplifting and celebratory atmosphere. It features a variety of instruments, including bass guitar, drums, horns, and keyboards, which come together to create a groovy and energetic composition. The central theme revolves around the concept of unconditional love, evoking feelings of warmth, acceptance, and joy. The video recording, if available, might be set in a studio or during a live performance, with potential background chatter from the audience contributing to the lively ambiance. The vocals in the track are likely lively and expressive, reflecting the enthusiastic tone and the celebration of love portrayed. a candle is lit in the dark",
+          "sourceAudio": "assets/audio/genre/jazz_to_electronic__004__XiF9fSeu4Q0--source.wav",
+          "editedAudio": "assets/audio/genre/jazz_to_electronic__004__XiF9fSeu4Q0--edited.wav"
+        },
+        {
+          "id": "genre:jazz_to_rock__003__uKOoxgI_xfQ",
+          "task": "genre",
+          "sourceClass": "jazz",
+          "targetClass": "rock",
+          "transition": "jazz_to_rock",
+          "sourcePrompt": "jazz music",
+          "targetPrompt": "rock music",
+          "sourceFullDescription": "The music track in question belongs to the jazz genre, exuding a vibrant and dynamic mix of emotions, blending joy and a subtle touch of melancholy. The composition typically features a brass section, saxophones, and a rhythm section, including drums and double bass, with the saxophone often leading the melody. While there are no lyrics to define the theme, the music itself conveys a sense of camaraderie and celebration. In a hypothetical video recording, it might be captured in a live jazz club or concert hall, with background noise consisting of the ambient chatter of the audience and the lively atmosphere of a music venue. \"Moanin'\" is often performed in live settings, allowing for improvisation and interaction between the musicians, and the tone of the piece is bold, expressive, and marked by impressive instrumental performances. a group of men playing music on stage",
+          "sourceAudio": "assets/audio/genre/jazz_to_rock__003__uKOoxgI_xfQ--source.wav",
+          "editedAudio": "assets/audio/genre/jazz_to_rock__003__uKOoxgI_xfQ--edited.wav"
+        },
+        {
+          "id": "genre:rock_to_classical__006__iP8yU_kfp1A",
+          "task": "genre",
+          "sourceClass": "rock",
+          "targetClass": "classical",
+          "transition": "rock_to_classical",
+          "sourcePrompt": "rock music",
+          "targetPrompt": "classical music",
+          "sourceFullDescription": "In this slow blues rock instrumental, a soulful atmosphere is crafted with a distorted guitar solo taking center stage. Accompanied by organ melodies, the composition explores a contemplative mood. The rhythm then dynamically shifts to a faster pace, introducing variations and adding an element of surprise. This contrast in tempo contributes to the overall dynamism of the song, creating a rich and expressive blues rock experience. the cover of blues breakers by john mayall",
+          "sourceAudio": "assets/audio/genre/rock_to_classical__006__iP8yU_kfp1A--source.wav",
+          "editedAudio": "assets/audio/genre/rock_to_classical__006__iP8yU_kfp1A--edited.wav"
+        },
+        {
+          "id": "genre:rock_to_electronic__010__x7tOPTm31tQ",
+          "task": "genre",
+          "sourceClass": "rock",
+          "targetClass": "electronic",
+          "transition": "rock_to_electronic",
+          "sourcePrompt": "rock music",
+          "targetPrompt": "electronic music",
+          "sourceFullDescription": "A male rock band featuring e-guitar, e-bass, and acoustic drums perform a medium to uptempo song with powerful vocals. a man playing a bass guitar in a recording studio",
+          "sourceAudio": "assets/audio/genre/rock_to_electronic__010__x7tOPTm31tQ--source.wav",
+          "editedAudio": "assets/audio/genre/rock_to_electronic__010__x7tOPTm31tQ--edited.wav"
+        },
+        {
+          "id": "genre:rock_to_jazz__006__iP8yU_kfp1A",
+          "task": "genre",
+          "sourceClass": "rock",
+          "targetClass": "jazz",
+          "transition": "rock_to_jazz",
+          "sourcePrompt": "rock music",
+          "targetPrompt": "jazz music",
+          "sourceFullDescription": "In this slow blues rock instrumental, a soulful atmosphere is crafted with a distorted guitar solo taking center stage. Accompanied by organ melodies, the composition explores a contemplative mood. The rhythm then dynamically shifts to a faster pace, introducing variations and adding an element of surprise. This contrast in tempo contributes to the overall dynamism of the song, creating a rich and expressive blues rock experience. the cover of blues breakers by john mayall",
+          "sourceAudio": "assets/audio/genre/rock_to_jazz__006__iP8yU_kfp1A--source.wav",
+          "editedAudio": "assets/audio/genre/rock_to_jazz__006__iP8yU_kfp1A--edited.wav"
+        }
+      ]
+    }
+  ]
+}
