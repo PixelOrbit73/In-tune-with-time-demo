@@ -26,22 +26,22 @@
         <section class="abstract" aria-labelledby="abstract-title">
           <h2 id="abstract-title">Abstract</h2>
           <p>
-            Training-free music editing aims to introduce a target style while
-            preserving the musical identity of the source. Existing methods
-            either update the editing direction progressively or combine
-            observations from a few flow times using predefined rules, without
-            explicitly modeling the relationships among nearby observations.
-            We introduce a delta-time perspective that treats these
-            observations as estimates of the same source-to-target displacement
-            at nearby flow times. Based on their temporal differences, we derive
-            higher-order temporal guidance using a second-order Taylor
-            approximation, capturing both the local trend and higher-order
-            variation of the editing direction with analytically determined
-            coefficients. We further select the expansion time through Bayesian
-            optimization and apply the resulting direction in a single
-            training-free and inversion-free update. Experiments on genre and
-            instrument editing demonstrate improved target transformation,
-            source preservation, and audio quality over representative
+            Training-free music style transfer aims to introduce a target style while 
+            preserving the musical identity of the source. Existing methods construct 
+            editing guidance through progressive latent updates or temporal aggregation.
+            We investigate how local temporal variation can inform this construction. 
+            Our key insight is that, with the edited latent fixed, differences among 
+            nearby evaluations estimate the local trend and curvature of the 
+            source-to-target displacement. Based on this insight, we introduce an 
+            efficient delta-time formulation that constructs higher-order guidance 
+            from three neighboring evaluations using a second-order Taylor model. 
+            The model combines the central displacement with its estimated temporal 
+            components, yielding aggregation coefficients determined by second-order 
+            reconstruction conditions. We further select the expansion time through 
+            Bayesian optimization and apply the resulting guidance in a single 
+            training-free, inversion-free update. Experiments on genre and instrument 
+            editing with DiT- and U-Net-based backbones demonstrate improved style 
+            transformation, source preservation, and audio quality over representative 
             baselines.
           </p>
         </section>
@@ -51,7 +51,7 @@
     <main class="page-width" id="listening-demo" tabindex="-1">
       <section class="results-section" aria-labelledby="results-title">
         <header class="section-heading">
-          <h2 id="results-title">Audio Editing Results</h2>
+          <h2 id="results-title">Audio Transfer Results</h2>
           <p>
             We present qualitative results for instrument and genre editing.
             Each example compares the source audio with our edited output and
@@ -59,7 +59,7 @@
           </p>
         </header>
 
-        <div class="results-explorer" aria-label="Music editing results">
+        <div class="results-explorer" aria-label="Music transfer results">
           <p class="listening-note">
             <strong>Listening note:</strong> Headphones are recommended. Starting
             a new example automatically pauses the current one.
@@ -85,7 +85,7 @@
 
     <footer>
       <div class="page-width footer-inner">
-        <p>Training-Free Music Editing · Interactive Audio Demo</p>
+        <p>Training-Free Music Style Transfer · Interactive Audio Demo</p>
         <a href="#top">Back to top</a>
       </div>
     </footer>
